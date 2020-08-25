@@ -16,7 +16,7 @@ export default class Orders1598225909194 implements MigrationInterface {
           {
             name: 'customer_id',
             type: 'uuid',
-            isNullable: false,
+            isNullable: true,
           },
           {
             name: 'created_at',

@@ -1,3 +1,5 @@
+import 'reflect-metadata';
+import '@shared/container';
 import request from 'supertest';
 
 import { Connection, getConnection, getRepository } from 'typeorm';
